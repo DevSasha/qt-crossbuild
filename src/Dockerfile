@@ -16,9 +16,9 @@ RUN apt-get update && \
 	apt-get install -y curl xz-utils && \
 	apt-get clean && \
 	cd ~ && \
-	curl ${QT_SRC} -o ~/qt-src-${QT_VER}.tar.xz && \
-	xz -T 0 -d qt-src-${QT_VER}.tar.xz && \
-	tar -xf qt-src-${QT_VER}.tar && \
-	rm qt-src-${QT_VER}.tar
+	curl $QT_SRC -o ~/qt-src-$QT_VER.tar.xz && \
+	xz -T 0 -d qt-src-$QT_VER.tar.xz && \
+	tar -xf qt-src-$QT_VER.tar && \
+	rm qt-src-$QT_VER.tar
 	
 RUN apt-get install -y make g++ g++-mingw-w64-x86-64 python
