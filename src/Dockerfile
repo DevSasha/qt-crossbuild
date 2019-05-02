@@ -2,11 +2,8 @@ FROM ubuntu:18.04
 
 ENV \
 	QT_VER=5.12 \
-	QT_UPDATE=${QT_VER}.2
-	#QT_SRC=https://download.qt.io/archive/qt/${QT_VER}/${QT_UPDATE}/single/qt-everywhere-src-${QT_UPDATE}.tar.xz
-	#QT_SRC=http://qtproject.freemirror.org/qtproject/archive/qt/${QT_VER}/${QT_UPDATE}single/qt-everywhere-src-${QT_UPDATE}.tar.xz \
-	QT_SRC=http://qt.mirror.constant.com/archive/qt/${QT_VER}/${QT_UPDATE}/single/qt-everywhere-src-${QT_UPDATE}.tar.xz \
-	#QT_SRC=http://mirrors.ukfast.co.uk/sites/qt.io/archive/qt/${QT_VER}/${QT_UPDATE}/single/qt-everywhere-src-${QT_UPDATE}.tar.xz \
+	QT_UPDATE=${QT_VER}.2 \
+	QT_SRC=https://download.qt.io/archive/qt/${QT_VER}/${QT_UPDATE}/single/qt-everywhere-src-${QT_UPDATE}.tar.xz \
 	QT_SRCDIR=~/qt-src-${QT_UPDATE}
 
 RUN apt-get update && \
