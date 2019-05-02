@@ -17,3 +17,5 @@ RUN apt-get update && \
 	xz -T 0 -d qt-src-${QT_UPDATE}.tar.xz && \
 	tar -xf qt-src-${QT_UPDATE}.tar && \
 	rm qt-src-${QT_UPDATE}.tar
+	
+RUN apt-get install -y make g++ g++-mingw-w64-x86-64
