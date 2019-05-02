@@ -1,1 +1,1 @@
-# qt-xbuild
+# qt-crossbuild
