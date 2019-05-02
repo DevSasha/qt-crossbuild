@@ -1,4 +1,4 @@
-FROM devsasha/qt-xbuild:qt-src-5.12.2
+FROM devsasha/qt-xbuild:qt-src
 
 RUN ./configure \
 	-opensource \
