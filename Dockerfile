@@ -18,4 +18,4 @@ RUN apt-get update && \
 	tar -xf qt-src-${QT_UPDATE}.tar && \
 	rm qt-src-${QT_UPDATE}.tar
 	
-RUN apt-get install -y make g++ g++-mingw-w64-x86-64
+RUN apt-get install -y make g++ g++-mingw-w64-x86-64 python
