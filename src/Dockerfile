@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-ENV \
+ARG \
 	QT_VER=5.12 \
 	QT_UPDATE=${QT_VER}.2 \
 	QT_SRC=https://download.qt.io/archive/qt/${QT_VER}/${QT_UPDATE}/single/qt-everywhere-src-${QT_UPDATE}.tar.xz \
