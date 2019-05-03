@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 	
 ARG QT_mVER=5.12 
-ARG QT_VER=5.12.2 
+ARG QT_VER=5.12.3 
 
 ENV \
 	QT_VER='5.12.3' \
