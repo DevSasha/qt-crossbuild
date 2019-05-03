@@ -6,7 +6,7 @@ ARG QT_VER=5.12.2
 ENV \
 	QT_VER='5.12.3' \
 	QT_mVER='5.12' \
-	QT_SRC=http://mirrors.ukfast.co.uk/sites/qt.io/archive/qt/${QT_mVER}/${QT_VER}/single/qt-everywhere-src-${QT_VER}.tar.xz && \
+	QT_SRC=http://mirrors.ukfast.co.uk/sites/qt.io/archive/qt/${QT_mVER}/${QT_VER}/single/qt-everywhere-src-${QT_VER}.tar.xz \
 	#QT_SRC=http://download.qt.io/archive/qt/${QT_mVER}/${QT_VER}/single/qt-everywhere-src-${QT_VER}.tar.xz \
 	QT_SRCDIR='~/qt-src-${QT_VER}'
 
