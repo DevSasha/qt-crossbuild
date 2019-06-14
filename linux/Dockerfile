@@ -5,5 +5,5 @@ RUN \
 	apt -y install bash build-essential curl git qt5-default && \
 	apt -y autoremove && \
 	apt -y autoclean && \
-	apt -y clean &&
+	apt -y clean && \
 	useradd nonroot
