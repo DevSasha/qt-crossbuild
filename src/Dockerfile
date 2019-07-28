@@ -1,10 +1,10 @@
 FROM ubuntu:18.04
-	
-ARG QT_mVER=5.12 
-ARG QT_VER=5.12.3 
+
+ARG QT_VER='5.12.0' \
+	QT_mVER='5.12'
 
 ENV \
-	QT_VER='5.12.3' \
+	QT_VER='5.12.0' \
 	QT_mVER='5.12' \
 	QT_SRC=http://mirrors.ukfast.co.uk/sites/qt.io/archive/qt/${QT_mVER}/${QT_VER}/single/qt-everywhere-src-${QT_VER}.tar.xz \
 	#QT_SRC=http://download.qt.io/archive/qt/${QT_mVER}/${QT_VER}/single/qt-everywhere-src-${QT_VER}.tar.xz \
