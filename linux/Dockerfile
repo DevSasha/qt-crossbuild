@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "-l", "-c"]
 RUN \
 	apt update && \
 	apt -y install bash build-essential curl git qt5-default && \
